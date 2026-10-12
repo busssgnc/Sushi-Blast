@@ -9,13 +9,13 @@ public class GridManager : MonoBehaviour
 
     Vector2Int[][] sekiller = new Vector2Int[][]
     {
-        // 0: yatay 2'li
+        // 1: yatay 2'li
         new Vector2Int[] { new Vector2Int(0,0), new Vector2Int(1,0) },
-        // 1: dikey 3'lü
+        // 2: dikey 3'lü
         new Vector2Int[] { new Vector2Int(0,0), new Vector2Int(0,1), new Vector2Int(0,2) },
-        // 2: L şekli
+        // 3: L şekli
         new Vector2Int[] { new Vector2Int(0,0), new Vector2Int(0,1), new Vector2Int(1,0) },
-        // 3: 3x3 kare
+        // 4: 3x3 kare
         new Vector2Int[] {
             new Vector2Int(0,0), new Vector2Int(1,0), new Vector2Int(2,0),
             new Vector2Int(0,1), new Vector2Int(1,1), new Vector2Int(2,1),
